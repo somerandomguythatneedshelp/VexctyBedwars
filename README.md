@@ -1,0 +1,2 @@
+This is an open source project if you want to change anything download the zip and paste it into your ide and idk what you with it.
+If you want to you can submit your ideas by making a fork of this project and fixing the bugs then making a pull request on github. 
