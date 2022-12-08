@@ -1,0 +1,6 @@
+name: VexctyBedwars
+version: '${project.version}'
+main: com.f2erg.vexctybedwars.Minigame
+authors: [ owner ]
+description: Source code for VexctyBedwars
+website: vexcty.com
