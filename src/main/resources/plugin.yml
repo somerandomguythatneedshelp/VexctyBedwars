@@ -4,3 +4,6 @@ main: com.f2erg.vexctybedwars.Minigame
 authors: [ owner ]
 description: Source code for VexctyBedwars
 website: vexcty.com
+commands:
+  arena:
+  game:

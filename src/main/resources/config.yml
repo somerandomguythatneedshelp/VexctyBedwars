@@ -1,0 +1,25 @@
+required-players: 2
+countdown-seconds: 15
+lobby-spawn:
+  world: 'bedwars'
+  x: 184.31
+  y: 238
+  z: 802.992
+  yaw: 0.2
+  pitch: -0.9
+arena:
+  0:
+    world: 'bedwars'
+    x: 217.247
+    y: 239
+    z: 830.441
+    yaw: 90.0
+    pitch: 0.1
+  1:
+    world: 'bedwars'
+    x: 154.300
+    y: 329
+    z: 827.370
+    yaw: -88.4
+    pitch: -0.8
+
