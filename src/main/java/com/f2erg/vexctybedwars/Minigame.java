@@ -5,6 +5,7 @@ import com.f2erg.vexctybedwars.event.ConnectListener;
 import com.f2erg.vexctybedwars.event.GameListener;
 import com.f2erg.vexctybedwars.manager.ArenaManager;
 import com.f2erg.vexctybedwars.manager.ConfigManager;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -19,6 +20,7 @@ public final class Minigame extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new ConnectListener(this), this);
         Bukkit.getPluginManager().registerEvents(new GameListener(this), this);
         registerCommands();
+        Metrics metrics = new Metrics(this, 17045);
     }
 
     @Override
